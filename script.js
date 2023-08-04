@@ -7,3 +7,11 @@ function double(ele){
 }
 const output = A.map(double);
 console.log(output);
+//M2
+const op = A.map(function(x){
+    return x*3;
+})
+console.log(op);
+//M3
+const o = A.map((x)=>x*4)
+console.log(o);
